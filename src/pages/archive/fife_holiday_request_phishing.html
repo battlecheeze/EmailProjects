@@ -1,0 +1,94 @@
+---
+subject: This is a request to DELETE a HOLIDAY record
+---
+<spacer size="25"></spacer>
+<container>
+  <row>
+    <columns>
+      <row style="border: 5px ridge #f3f3f3;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3; background: #c0c0c0;" bgcolor="#c0c0c0">
+          <p class="text-center" style="margin-top: 5px; margin-bottom: 0; font-weight: bold;">HOLIDAY Request</p>
+        </columns>
+        <columns large="8" style="border: 5px ridge #f3f3f3; border-left-style: none; background: #c0c0c0;" bgcolor="#c0c0c0">
+          <p class="text-center" style="margin-top: 5px; margin-bottom: 0; font-weight: bold;">This is a request to DELETE a HOLIDAY record.</p>
+        </columns>
+      </row>
+      <row style="border: 5px ridge #f3f3f3; border-top-style: none;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3;">
+          <p style="font-weight: bold;">Employee</p>
+        </columns>
+        <columns large="8" style="border-right: 5px ridge #f3f3f3;">
+          <p style="">(1018) {\{firstname\}} {\{lastname\}}</p>
+        </columns>
+      </row>
+      <row style="border: 5px ridge #f3f3f3; border-top-style: none;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3;">
+          <p style="font-weight: bold;">Start</p>
+        </columns>
+        <columns large="8" style="border-right: 5px ridge #f3f3f3;">
+          <p style="">{\{DATE\}}</p>
+        </columns>
+      </row>
+      <row style="border: 5px ridge #f3f3f3; border-top-style: none;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3;">
+          <p style="font-weight: bold;">End</p>
+        </columns>
+        <columns large="8" style="border-right: 5px ridge #f3f3f3;">
+          <p style="">{\{DATE+2\}}</p>
+        </columns>
+      </row>
+      <row style="border: 5px ridge #f3f3f3; border-top-style: none;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3;">
+          <p style="font-weight: bold;">Dates Requested</p>
+        </columns>
+        <columns large="8" style="border-right: 5px ridge #f3f3f3;">
+          <row>
+            <columns>Mon</columns>
+            <columns>Tue</columns>
+            <columns>Wed</columns>
+            <columns>Thur</columns>
+            <columns>Fri</columns>
+            <columns>Sat</columns>
+            <columns>Sun</columns>
+          </row>
+          <row>
+            <columns style="border:1px solid black; border-right:4px double black;">10</columns>
+            <columns style="border:1px solid black; border-left:4px double black; margin-left: 3px;">11</columns>
+            <columns style="border:1px solid black; border-left:4px double black; margin-left: 3px;">12</columns>
+            <columns style="border:1px solid black; border-left:4px double black; margin-left: 3px; background: #b4b265;" bgcolor="#b4b265">
+              <p>13</p>
+              <p>1.00 d</p>
+            </columns>
+            <columns style="border:1px solid black; border-left:4px double black; margin-left: 3px; background: #b4b265;" bgcolor="#b4b265">
+              <p>14</p>
+              <p>1.00 d</p>
+            </columns>
+            <columns style="border:1px solid black; border-left:4px double black; margin-left: 3px;">15</columns>
+            <columns style="border:1px solid black; border-left:4px double black; margin-left: 3px;">16</columns>
+          </row>
+          <p style="text-align: center; font-weight: bold;">Total Duration: 2.00 day(s)</p>
+        </columns>
+      </row>
+      <row style="border: 5px ridge #f3f3f3; border-top-style: none;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3;">
+          <p style="font-weight: bold;">Requested</p>
+        </columns>
+        <columns large="8" style="border-right: 5px ridge #f3f3f3;">
+          <p style="">{\{Date\}}</p>
+        </columns>
+      </row>
+      <row style="border: 5px ridge #f3f3f3; border-top-style: none;">
+        <columns large="4" style="border-right: 5px ridge #f3f3f3;">
+          <p style="font-weight: bold;">Additonal User Comments</p>
+        </columns>
+        <columns large="8" style="border-right: 5px ridge #f3f3f3;">
+          <p style="">Request from {\{Date\}} to {\{Date+2\}}</p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+</container>
+<spacer size="30"></spacer>
+<p>Please <a href="{\{url\}}">login</a> to the HR Database to authorise or reject this request. You may wish to 
+  check the planner within the system to check all of your team members holidays and absences. To do this 
+  click on the planner link from the Quick Links menu.</p>

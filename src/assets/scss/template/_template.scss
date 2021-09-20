@@ -1,0 +1,353 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Amazon Color
+
+.amazon-color {
+  color: $amazon-color;
+}
+
+table.button.amazon table td {
+    background: $amazon-color;
+    border-color: $amazon-color;
+}
+
+// Darker Amazon 
+table.button.amazon-dark table td {
+    background: #e4912a;
+    border-color: #e4912a;
+}
+
+table.button.amazon-orange table td {
+    background: $amazon-orange !important;
+    border-color: #b27300 !important;
+    color: #3B5998;
+}
+
+table.button.amazon-grey table td {
+    background: #eff1f3 !important;
+    border-color: #eff1f3 !important;
+    color: #111;
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+}
+
+// TV Licensing Color
+
+table.button.tvlicensing table td {
+    background: $tvlicensing-color;
+    border-color: $tvlicensing-color;
+}
+
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.facebook-gray table td {
+  border: solid 1px #c9ccd1;
+  background: #f6f7f8;
+  color: #525252;
+}
+
+table.button.twitter table td {
+  background-color: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.linkedin-light table td {
+  background-color: #0073B1 !important;
+  border: 1px solid #fff !important;
+}
+
+table.button.linkedin-dark table td {
+  background-color: #0073B1 !important;
+  border: 1px solid #008CC9 !important;
+}
+
+table.button.linkedin-view table td {
+  background-color: inherit;
+  border: 1px solid #737373;
+  color: #4c4c4c;
+}
+
+table.button.office-365 table td {
+  background-color: #0071c6;
+  border: 1px solid #0071c6;
+  color: #fff;
+}
+
+table.button.timetastic table td {
+  background-color: #22aa66 !important;
+  border: 1px solid #22aa66 !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table.button.google table td {
+  background-color: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+// Amazon wrapper
+
+.wrapper.amazon-orange {
+    background: $amazon-orange;
+}
+
+.wrapper.light-green {
+    background: #dbf0cc;
+}
+
+.wrapper.white {
+    background: $white
+}
+
+// My Learning cloud
+$mylearningcloud-color: #1c4a61;
+table.button.mylearningcloud table td {
+  background: $mylearningcloud-color;
+  border: 1px solid $mylearningcloud-color;
+  color: #fff;
+}
+
+// Santander
+table.button.santander table td {
+  background-color: #EC0000;
+  //border: 1px solid #EC0000;
+  color: #fff;
+}
+
+// Domino's Pizza Red
+table.button.domino-red table td {
+  background-color: #de0b2f;
+  border: 2px solid #de0b2f;
+  padding: 5px;
+}
+
+// Uber eats
+
+table.button.uber-eats table td {
+  background-color: #299129;
+  border: 1px solid #299129;
+}
+
+table.button.santander-dark table td {
+  background-color: #C90212;
+  //border: 1px solid #EC0000;
+  color: #fff;
+}
+
+// WHO
+table.button.who table td {
+  background-color: #008dc9;
+  border: 1px solid #008dc9;
+  color: #fff;
+}
+
+
+// simplyhealth
+table.button.simplyhealth table td {
+  background-color: #282249 !important;
+  background: #282249 !important;
+  border: 1px solid #282249;
+  color: #fff;
+}
+
+// Docusign
+table.button.docusign table td {
+  background-color: #ffc423;
+  background: #ffc423;
+  border: 1px solid #ffc423;
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+// SafeMask
+table.button.safemask table td {
+  background-color: #1fc22f;
+  background: #1fc22f;
+}
+
+
+// ParentPay
+table.button.parentpay table td {
+  background-color: #fae100 !important;
+  color: #1b2c3e !important;
+}
+
+//ePaySlip
+
+table.button.epayslip table td {
+  background-color: #662E91 !important;
+  color: #fff;
+  border: 1px solid #662E91 !important;
+}
+
+// Mimecast
+$mimecast-color: #35517b;
+table.button.mimecast table td {
+  background: $mimecast-color;
+  border: 1px solid $mimecast-color;
+  color: #fff;
+}
+
+
+// Netflix
+$netflix-color: #e50914;
+
+table.button.netflix table td {
+  background: $netflix-color;
+  border-color: $netflix-color !important;
+}
+
+// BrightHR button
+table.button.brighthr table td {
+  background-color: #ff09ff;
+  background-image: url(https://tdw-account-secure.s3.eu-west-2.amazonaws.com/brghthr/images/brighthr-emailbutton.png);
+  background: #ff00ff !important;
+  border-radius: 99px;
+}
+
+// Asda button
+table.button.asda table td {
+  background-color: #68A51C;
+  border-color: #68A51C;
+}
+
+// EuroHedge button
+
+table.button.eurohedge table td {
+  background-color: $white;
+  border: 5px solid $primary-color;
+  color: $primary-color !important;
+}
+
+// OneDrive Button
+table.button.onedrive table td {
+  background-color: #006cbf;
+  color: #fff;
+}
+
+// Practical Law button
+
+table.button.praclaw-button table td {
+  background-color: #f27300;
+  border-color: #f27300;
+  color: #fff;
+}
+
+// font color light gray
+p.light-gray {
+    color: $light-gray;
+}
+
+// font color medium gray
+p.medium-gray {
+    color: $medium-gray
+}
+
+// text colors
+
+.text-warning {
+    color: $warning-color;
+}
+
+.text-alert {
+    color: $alert-color;
+}
+
+.text-danger {
+    color: red;
+}
+
+/* Media Queries */
+.small-p {
+  text-align: right;
+}
+
+.small-img {
+  margin: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 712px) {
+  .small-p, .small-txt {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 10px;
+
+  }
+  
+  .small-img {
+    margin: auto; 
+    text-align: center;
+  }
+
+}
+
+// Amazon Prime Template
+  .col-img {
+    background: #04b5e9;
+  }
+  .spn-small {
+    font-size: 13px;
+    display: block;
+  }
+  .spn-ssmall {
+    font-size: 11px;
+    display: block;
+  }
+  .spn-extrasmall {
+    font-size: 9px;
+    display: block;
+  }
+  .small-a {
+    font-size: 13px;
+  }
+  .green {
+    color: green;  
+  }

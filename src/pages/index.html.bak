@@ -1,0 +1,386 @@
+---
+layout: index-layout
+subject: My Email Templates
+---
+
+<spacer size="16"></spacer>
+
+<container>
+
+  <spacer size="24"></spacer>
+  
+  <row>
+    <columns small="12">
+
+    <p class="lead">Hi there!</p>
+    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="http://foundation.zurb.com/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
+
+    <spacer size="16"></spacer>
+   <!-- 
+    <center>
+       <menu class="vertical">
+        <item href="{{root}}updatepassword.html" target="_blank">Update Password</item>
+        <item href="{{root}}passwordchanged.html" target="_blank">Password Changed</item>
+        <item href="{{root}}messagefromhr.html" target="_blank">Message from Human Resources</item>
+        <item href="{{root}}dropbox1.html" target="_blank">Dropbox Emal 1</item>
+        <item href="{{root}}dropbox2.html" target="_blank">Dropbox Emal 2</item>
+        <item href="{{root}}taxseasonphish.html" target="_blank">Tax Season Phish</item>
+        <item href="{{root}}taxseasonphish2.html" target="_blank">Tax Season Phish 2</item>
+        <item href="{{root}}fedexphish.html" target="_blank">FedEx Phish</item>
+        <item href="{{root}}fedexphish2.html" target="_blank">FedEx Phish 2</item>
+        <item href="{{root}}schoolchancellorphish.html" target="_blank">School Chancellor</item>
+        <item href="{{root}}bcoursesexpirationphish.html" target="_blank">Courses Expiration Phish</item>
+        <item href="{{root}}emailaccountupgrade.html" target="_blank">Email Account Upgrade Phish</item>
+        <item href="{{root}}emailstoragephish.html" target="_blank">Email Storage Limit Phish</item>
+        <item href="{{root}}lockymalware1.html" target="_blank">Messages containing Locky malware 1</item>
+        <item href="{{root}}lockymalware2.html" target="_blank">Messages containing Locky malware 2</item>
+        <item href="{{root}}vitalinfo.html" target="_blank">Vital Info</item>
+        <item href="{{root}}renotice.html" target="_blank">RE: Notice</item>
+        <item href="{{root}}helpdesknotice.html" target="_blank">Help Deskâ€‹ Notice.</item>
+        <item href="{{root}}reviewtax.html" target="_blank">Review Tax Profile</item>
+        <item href="{{root}}updateapplephish.html" target="_blank">Update Your Apple Account</item>
+        <item href="{{root}}verifyapple.html" target="_blank">Verify your Apple ID Phish</item>
+        <item href="{{root}}spearphishattack.html" target="_blank">Spear Phish Attack Tax (US)</item>
+        <item href="{{root}}spearphishattack2.html" target="_blank">Spear Phish Attack Tax (UK)</item>
+        <item href="{{root}}downloadgoogledoc.html" target="_blank">Download Google Doc</item>
+        <item href="{{root}}passwordexpire.html" target="_blank">Password Update Phish</item>
+        <item href="{{root}}irsservicephish.html" target="_blank">Important Update From IRS Service</item>
+        <item href="{{root}}hmrevenueservicephish.html" target="_blank">Important Update From HM Revenue and Customs Service</item>
+        <item href="{{root}}dhlphish1.html" target="_blank">DHL EXPRESS DOCUMENT "Text"</item>
+        <item href="{{root}}dhlphish2.html" target="_blank">DHL EXPRESS DOCUMENT "Graphics"</item>
+        <item href="{{root}}paperlessw2.html" target="_blank">Paperless W2</item>
+        <item href="{{root}}paperlessp60.html" target="_blank">Paperless P60</item>
+        <item href="{{root}}newsalaryphish.html" target="_blank">Your New Salary Notification</item>
+        <item href="{{root}}dhlphish3.html" target="_blank">DHL Shipment Notification</item>
+        <item href="{{root}}cpanelphish.html" target="_blank">CPANEL GDPR Notification</item>
+        <item href="{{root}}royalbankcaphish.html" target="_blank">Royal Bank Canada GDPR</item>
+        <item href="{{root}}paypalgdpr.html" target="_blank">PayPal GDPR Phishing</item>
+        <item href="{{root}}lunophishing.html" target="_blank">Luno Phishing</item>
+        <item href="{{root}}applegdpr.html" target="_blank">Apple GDPR Phishing</item>
+        <item href="{{root}}facebookphish.html" target="_blank">Facebook Password Reset Phishing</item>
+        <item href="{{root}}santanderphishing.html" target="_blank">Santander Phishing</item>
+        <item href="{{root}}hsbcphishing.html" target="_blank">HSBC Phishing</item>
+        <item href="{{root}}zimbraphishing.html" target="_blank">Zimbra Phishing</item>
+        <item href="{{root}}webmailphishing.html" target="_blank">Webmail Upgrade Phishing</item>
+        <item href="{{root}}webmailphishing.html" target="_blank">Webmail Upgrade Phishing</item>
+        <item href="{{root}}appleidphishing.html" target="_blank">Apple ID Restrict Phishing</item>
+        <item href="{{root}}bitcoinransware1.html" target="_blank">Bitcoin Ransomware 1</item>
+        <item href="{{root}}bitcoinransware2.html" target="_blank">Bitcoin Ransomware 2</item>
+        <item href="{{root}}bitcoinransware3.html" target="_blank">Bitcoin Ransomware 3</item>
+        <item href="{{root}}bitcoinransware4.html" target="_blank">Bitcoin Ransomware 4</item>
+        <item href="{{root}}airbnbphishing.html" target="_blank">Airbnb Phishing 1</item>
+        <item href="{{root}}airbnbphishing2.html" target="_blank">Airbnb Phishing 2</item>
+        <item href="{{root}}airbnbphishing3.html" target="_blank">Airbnb Phishing 3</item>
+        <item href="{{root}}ebayphishing.html" target="_blank">eBay Phishing</item>
+        <item href="{{root}}ebayphishing2.html" target="_blank">eBay Phishing 2</item>
+        <item href="{{root}}amazonphishing2.html" target="_blank">Amazon Phishing 2</item>
+        <item href="{{root}}paypalphishing4.html" target="_blank">PayPal Phishing 4</item>
+        <item href="{{root}}fedexphishing3.html" target="_blank">FedEx Phishing 3</item>
+        <item href="{{root}}mi5phishing.html" target="_blank">MI5 Phishing</item>
+        <item href="{{root}}westernunionphishing.html" target="_blank">Western Union Phishing</item>
+        <item href="{{root}}amazonphishing3.html" target="_blank">Amazon Phishing 3</item>
+        <item href="{{root}}amazonphishing4.html" target="_blank">Amazon Phishing 4</item>
+        <item href="{{root}}amazonphishing5.html" target="_blank">Amazon Phishing 5</item>
+        
+        <item href="{{root}}tvlicensingphishing1.html" target="_blank">TV Licensing Phishing 1</item>
+        <item href="{{root}}tvlicensingphishing2.html" target="_blank">TV Licensing Phishing 2</item>
+        
+        <item href="{{root}}microsoft365phishing.html" target="_blank">Microsoft Office 365 Phishing</item>
+        <item href="{{root}}microsoft365phishing2.html" target="_blank">Microsoft Office 365 Phishing 2</item>
+        
+         <item href="{{root}}applepurchasephishing.html" target="_blank">Apple Purchase Phishing</item>
+         
+         <item href="{{root}}rightmovephishing.html" target="_blank">RightMove Account Verification Phishing</item>
+         <item href="{{root}}paypalphishing5.html" target="_blank">PayPal Phishing 5</item>
+         
+         <item href="{{root}}facebookphish2.html" target="_blank">Facebook New Notification Phishing</item>
+         <item href="{{root}}facebookphish3.html" target="_blank">Facebook Game Purchase Phishing</item>
+         
+         <item href="{{root}}paypalphishing6.html" target="_blank">Payment receipt from Facebook</item>
+         <item href="{{root}}quoraphishing.html" target="_blank">Quora Security Update</item>
+         
+         <item href="{{root}}snapchatphishing.html" target="_blank">Snapchat Phishing</item>
+         <item href="{{root}}netflixphishing.html" target="_blank">Netflix Phishing</item>
+         <item href="{{root}}netflixphishing2.html" target="_blank">Netflix Phishing 2</item>
+         
+         <item href="{{root}}snapchatphishing2.html" target="_blank">Snapchat Phishing 2</item>
+         <item href="{{root}}facebookphish4.html" target="_blank">Facebook Phishing 4</item>
+         <item href="{{root}}linkedinphish1.html" target="_blank">Linkedin Phishing 1</item>
+         
+         <item href="{{root}}blackberryphishing.html" target="_blank">BlackBerry Dynamics Phishing 1(Plain email)</item>
+         <item href="{{root}}sapconcurphishing.html" target="_blank">Company Card Notification for username Phishing</item>
+         <item href="{{root}}timetasticphishing.html" target="_blank">TimeTastic Password Reset Phishing</item>
+
+         <item href="{{root}}linkedinphishing2.html" target="_blank">Linkedin Phishing 2</item>
+         <item href="{{root}}linkedinphishing3.html" target="_blank">Linkedin Phishing 3</item>
+
+         <item href="{{root}}timetasticphishing2.html" target="_blank">TimeTastic Password Reset Phishing 2</item>
+         <item href="{{root}}timetasticphishing3.html" target="_blank">TimeTastic Password Reset Phishing 3 (Image Reset Button)</item>
+         <item href="{{root}}timetasticphishing4.html" target="_blank">TimeTastic Password Reset Phishing 3 (div design Reset Button)</item>
+
+         <item href="{{root}}linkedinphishing4.html" target="_blank">Linkedin Phishing 4</item>
+
+         <item href="{{root}}peoplehrphishing1.html" target="_blank">People HR Phishing 1</item>
+
+         <item href="{{root}}jmwitphishing1.html" target="_blank">JMW IT Phishing 1</item>
+         <item href="{{root}}testphishingex.html" target="_blank">Test Phishing ex</item>
+
+         <item href="{{root}}servdeskchpassphishing.html" target="_blank">Service Desk – Change your password Phishing</item>
+         <item href="{{root}}office365prtmsgphishing.html" target="_blank">Office 365 – protected message Phishing</item>
+         <item href="{{root}}office365inboxfullphishing.html" target="_blank">Office 365 – Inbox full Phishing</item>
+         
+         <item href="{{root}}datixphishing1.html" target="_blank">Datix Incident Reporting Phishing</item>
+         <item href="{{root}}microsoftteamsphishing1.html" target="_blank">Microsoft Teams Phishing</item>
+         <item href="{{root}}corehrphishing.html" target="_blank">Core HR Phishing</item>
+         
+         <item href="{{root}}mylearningcloudphishing.html" target="_blank">My Learning Cloud Phishing</item>
+         <item href="{{root}}msdynamicscrmphishing.html" target="_blank">Microsoft Dynamics CRM Phishing</item>
+         <item href="{{root}}sharepointphishing2.html" target="_blank">SharePoint Phishing 2</item>
+         <item href="{{root}}internalphishing.html" target="_blank">Internal Phishing</item>
+         <item href="{{root}}citrixsharefilephishing.html" target="_blank">Citrix ShareFile Phishing</item>
+         <item href="{{root}}mimecastphishing.html" target="_blank">Mimecast Phishing</item>
+
+         <item href="{{root}}netflixphishing3.html" target="_blank">Netflix Phishing 3</item>
+         <item href="{{root}}netflixphishing4.html" target="_blank">Netflix Phishing 4</item>
+         
+         <item href="{{root}}netflixphishing5.html" target="_blank">Netflix Phishing 5</item>
+         <item href="{{root}}netflixphishing6.html" target="_blank">Netflix Phishing 6</item>
+         <item href="{{root}}paypalphishing8.html" target="_blank">PayPal Phishing 8</item>
+         <item href="{{root}}paypalphishing9.html" target="_blank">PayPal Phishing 9</item>
+
+         <item href="{{root}}bitcoinransomphishing1.html" target="_blank">Bitcoin Ransom 1</item>
+         <item href="{{root}}targetphishing1.html" target="_blank">Target Phishing 1</item>
+         <item href="{{root}}scamemailphishing1.html" target="_blank">Scam Email Phishing 1</item>
+         <item href="{{root}}netflixphishing7.html" target="_blank">Netflix Phishing 7</item>
+
+         <item href="{{root}}companieshousephishing1.html" target="_blank">Companies House Phishing 1</item>
+         <item href="{{root}}companieshousephishing2.html" target="_blank">Companies House Phishing 2</item>
+
+         <item href="{{root}}paypalphishing10.html" target="_blank">PayPal Phishing 10</item>
+         <item href="{{root}}amazonphishing8.html" target="_blank">Amazon Phishing 8</item>
+         
+         <item href="{{root}}googledocsphishing3.html" target="_blank">Google Docs Phishing 3</item>
+         <item href="{{root}}amazonphishing9.html" target="_blank">Amazon Phishing 9</item>
+         
+         <item href="{{root}}applephishing6.html" target="_blank">Apple Phishing 6</item>
+         <item href="{{root}}applephishing7.html" target="_blank">Apple Phishing 7</item>
+         
+         <item href="{{root}}facebookphishing5.html" target="_blank">Facebook Phishing 5</item>
+         <item href="{{root}}applephishing8.html" target="_blank">Apple Phishing 8</item>
+         
+         <item href="{{root}}dropboxphishing3.html" target="_blank">Dropbox Phishing 3</item>
+         <item href="{{root}}dropboxphishing4.html" target="_blank">Dropbox Phishing 4</item>
+         <item href="{{root}}dropboxphishing5.html" target="_blank">Dropbox Phishing 5</item>
+         <item href="{{root}}xerophishing2.html" target="_blank">Xero Phishing 2</item>
+         
+         <item href="{{root}}googlecalendarphishing.html" target="_blank">Google Calendar Phishing</item>
+         
+         <item href="{{root}}googledocsphishing4.html" target="_blank">Google Docs Phishing 4</item>
+         <item href="{{root}}googlecalendarphishing2.html" target="_blank">Google Calendar Phishing 2</item>
+         
+         <item href="{{root}}instagramphishing1.html" target="_blank">Instagram For Business Phishing</item>
+
+         <item href="{{root}}scientificjournalphishing1.html" target="_blank">Scientific Journal Phishing</item>
+         <item href="{{root}}businessinsiderphishing1.html" target="_blank">Business Insider Phishing</item>
+
+         <item href="{{root}}googlesecurityphishing1.html" target="_blank">Google Government-backed attackers Phishing</item>
+         <item href="{{root}}businessinsiderphishing2.html" target="_blank">Business Insider Password Compromised Phishing</item>
+         
+         <item href="{{root}}linkedinphishing5.html" target="_blank">Linkedin Required Reset Password Phishing</item>
+         <item href="{{root}}datingscamphishing1.html" target="_blank">Dating Scam Phishing</item>
+         <item href="{{root}}ebayphishing3.html" target="_blank">eBay e-Commerce Advertising Service Phishing</item>
+         
+         <item href="{{root}}royalmailphishing2.html" target="_blank">Royal Mail Rerouting Service Phishing</item>
+         <item href="{{root}}ebayphishing4.html" target="_blank">eBay Reset Password Phishing</item>
+
+         <item href="{{root}}amazonphishing10.html" target="_blank">Amazon Survey Phishing</item>
+         <item href="{{root}}hmlandregistryphishing1.html" target="_blank">HM Land Registry Notification Phishing</item>
+         
+         <item href="{{root}}instagramphishing2.html" target="_blank">Instagram Survey Phishing</item>
+         
+         <item href="{{root}}brighthrphishing1.html" target="_blank">BrightHR Absence Phishing</item>
+         
+         <item href="{{root}}renewpcphishing1.html" target="_blank">RE New PC Phishing</item>
+         <item href="{{root}}sage50phishing1.html" target="_blank">Sage 50 Invoice Due Phishing</item>
+         <item href="{{root}}sage50phishing2.html" target="_blank">Sage 50 Incoming Invoice Phishing</item>
+         
+         <item href="{{root}}xerophishing3.html" target="_blank">Xero Invoice from Cater plus Phishing</item>
+         
+         <item href="{{root}}audionotephishing1.html" target="_blank">Microsoft Audio Note Phishing</item>
+         
+         <item href="{{root}}sageaccountingphishing1.html" target="_blank">Sage Accounting Phishing</item>
+         
+         <item href="{{root}}practicallawphishing1.html" target="_blank">Practical Law Leak Info Phishing</item>
+         
+         <item href="{{root}}voicescamphishing1.html" target="_blank">Voice Scam Phishing</item>
+         <item href="{{root}}amazonprimedayphishing1.html" target="_blank">Amazon Prime Day Phishing</item>
+         
+         <item href="{{root}}asdasurveyphishing1.html" target="_blank">Asda Survey Scam Phishing</item>
+         
+         <item href="{{root}}futureoffinancephishing.html" target="_blank">Future of Finance Phishing</item>
+         <item href="{{root}}eurohedgenewsletterphishing.html" target="_blank">EuroHedge Newsletter Phishing</item>
+         
+         <item href="{{root}}albournenewsletterphishing.html" target="_blank">Albourne Newsletter Phishing</item>
+         <item href="{{root}}flexsharesnewsletterphishing.html" target="_blank">FlexShares Newsletter Phishing</item>
+         
+         <item href="{{root}}americanexpressphishing.html" target="_blank">American Express Email Phishing</item>
+         
+         <item href="{{root}}appleaccountlockedphishing.html" target="_blank">Apple Account Locked Phishing</item>
+         
+         <item href="{{root}}multifunctionprinterphishing.html" target="_blank">Message from KM_C308 Phishing</item>
+         <item href="{{root}}spiceworksticketphishing.html" target="_blank">Spiceworks Ticket Phishing</item>
+         
+         <item href="{{root}}selfservicepayrollphishing.html" target="_blank">Self Service Payroll NGAHR Phishing</item>
+         <item href="{{root}}xeroscannedpagesphishing.html" target="_blank">Xero Scanned Pages Phishing</item>
+         
+         <item href="{{root}}healthcarephishing.html" target="_blank">Healthcare Phishing</item>
+         <item href="{{root}}passwordresetphishing.html" target="_blank">Password Reset Phishing</item>
+         
+         <item href="{{root}}datingsiteunsubscribephishing.html" target="_blank">Dating Site Unsubscribe Phishing</item>
+         
+         <item href="{{root}}sharepointlegalphishing.html" target="_blank">Independent Legal Assessors Proposal Phishing</item>
+         <item href="{{root}}blurredlegalletterphishing.html" target="_blank">Blurred Legal Letter Phishing</item>
+         
+         <item href="{{root}}onedrivephishing.html" target="_blank">OneDrive Procurement Phishing</item>
+         
+         <item href="{{root}}netflixsuspensionphishing.html" target="_blank">Netflix Suspension Account Phishing</item>
+         
+         <item href="{{root}}infectedapplescamphishing.html" target="_blank">Infected Apple Scam Phishing</item>
+         
+         <item href="{{root}}mobiuslife_serversecurity_phishing.html" target="_blank">Mobius Life Server Security Phishing</item>
+         <item href="{{root}}itlab_incident_phishing.html" target="_blank">ITLab Incident INC0479929 Phishing</item>
+         
+         <item href="{{root}}instagramcopyinfringephishing.html" target="_blank">Instagram Copyright Infringement Phishing</item>
+         
+         <item href="{{root}}pdfattachmentscamphishing.html" target="_blank">PDF Attachment Scam Phishing</item>
+         
+         <item href="{{root}}strongauthenticationscam.html" target="_blank">Strong Customer Authentication Scam</item>
+         
+         <item href="{{root}}amazonaccounttakeover.html" target="_blank">Amazon Account Takeover Scam</item>
+         
+         <item href="{{root}}linkedin_ISGplc_phishing.html" target="_blank">Linkedin Invite ISG plc Phishing</item>
+         
+         <item href="{{root}}lovelle_invoice_phishing.html" target="_blank">Lovelle Invoice Phishing</item>
+         <item href="{{root}}onedrive_lovelle_invoice_phishing.html" target="_blank">OneDrive Lovelle Invoice Phishing</item>
+
+         <item href="{{root}}online_purchase_phishing.html" target="_blank">Online Purchase Phishing</item>
+         
+         <item href="{{root}}online_purchase_phishing.html" target="_blank">Online Purchase Phishing</item>
+         
+         <item href="{{root}}tvlicensing_declined_phishing.html" target="_blank">TV Licensing Declined Autumn Scam</item>
+         
+         <item href="{{root}}santander_sca_phishing.html" target="_blank">Santander SCA Phishing</item>
+         
+         <item href="{{root}}linkedin_aurum_phishing.html" target="_blank">Linkedin Adam Hopkin Connection Request Phishing</item>
+         
+         <item href="{{root}}tastecard_free30daytrial_phishing.html" target="_blank">tastecard Free 30 Day Trial Phishing</item>
+         
+         <item href="{{root}}easyjet_flights_win_phishing.html" target="_blank">EasyJet FFree Flights Win Scam</item>
+         
+         <item href="{{root}}linkedin_vm_message_phishing.html" target="_blank">Linkedin VM Message Phishing</item>
+         
+         <item href="{{root}}blurred_print_job_phishing.html" target="_blank">Blurred Print Job Phishing</item>
+         
+         <item href="{{root}}integrity_print_job_phishing.html" target="_blank">Integrity Print Job Phishing</item>
+         <item href="{{root}}google_drive_storage_limit_phishing.html" target="_blank">Google Drive Storage Limit Phishing</item>
+
+
+         <item href="{{root}}parentpay_security_breach_phishing.html" target="_blank">ParentPay Security Breach Phishing</item>
+         <item href="{{root}}epayslip_reset_password_phishing.html" target="_blank">ePayslip Reset Password Phishing</item>
+         
+         <item href="{{root}}fife_holiday_request_phishing.html" target="_blank">Fife Holiday Request Phishing</item>
+         <item href="{{root}}fife_bank_details_request_phishing.html" target="_blank">Fife Bank Details Request Phishing</item>
+         <item href="{{root}}fife_login_details_request_phishing.html" target="_blank">Fife Login Details Request Phishing</item>
+         
+         <item href="{{root}}dominos_free_pizza_phishing.html" target="_blank">Domino's 50% Pizza Scam Phishing</item>
+         <item href="{{root}}hmrc_tax_refund_phishing.html" target="_blank">HMRCRecent Tax Rebate/Refund Scam Phishing</item>
+         <item href="{{root}}uber_eats_near_phishing.html" target="_blank">Uber Eats Near You Phishing</item>
+         
+         <item href="{{root}}microsoft_account_password_phishing.html" target="_blank">Microsoft Account Password Change Phishing</item>
+         
+         <item href="{{root}}2excel_login_details_phishing.html" target="_blank">2Excel Login Details Phishing</item>
+         
+         <item href="{{root}}onhold_order_phishing.html" target="_blank">DIYsurvivor.com On Hold Order Phishing</item>
+         
+         <item href="{{root}}peoplehr_holidayreject_phishing.html" target="_blank">People HR Holiday Request Reject Phishing</item>
+         <item href="{{root}}o365_encrypted_VM_phishing.html" target="_blank">O365 Encrypted Voice Message phishing</item>
+         
+         <item href="{{root}}who_coronavirus_scare_phishing.html" target="_blank">WHO Coronavirus Attachment Phishing</item>
+         
+         <item href="{{root}}cdc_coronavirus_scare_phishing.html" target="_blank">CDC Coronavirus Health alert Phishing</item>
+         <item href="{{root}}microsoft_outlook_spam.html" target="_blank">The Microsoft Outlook Spam Phishing</item>
+         <item href="{{root}}microsoft_validate_account_phishing.html" target="_blank">The Microsoft Validate Your Account Phishing</item>
+         
+         <item href="{{root}}gov_uk_covid-19_phishing.html" target="_blank">GOV.UK COVID-19 Warning Phishing</item>
+         <item href="{{root}}nhs_coronavirus_service_phishing.html" target="_blank">NHS Coronavirus Service Phishing</item>
+         <item href="{{root}}gov_uk_coronavirus_alert_phishing.html" target="_blank">GOV.UK Coronavirus Alert Phishing</item>
+         
+         <item href="{{root}}insurance_coverage_alert_phishing.html" target="_blank">Insurance Coverage Alert Phishing</item>
+         
+         <item href="{{root}}coronavirus_infected_tracker_phishing.html" target="_blank">Coronavirus Infected Tracker Phishing</item>
+         
+         <item href="{{root}}covid-19_hr_announcement.html" target="_blank">COVID-19 HR Announcement Phishing</item>
+         <item href="{{root}}docusign_who_covid_guidelines_phishing.html" target="_blank">Docusign WHO COVID-19 Guidelines Phishing</item>
+         
+         <item href="{{root}}hr_updates_regarding_covid-19_phishing.html" target="_blank">HR Updates Regarding COVID-19 Phishing</item>
+         <item href="{{root}}getsafemask_phishing.html" target="_blank">Get SafeMask Phishing</item>
+         
+         <item href="{{root}}gov_uk_covid_tax_refund_phishing.html" target="_blank">GOV.UK COVID-19 Tax Refund Phishing</item>
+         <item href="{{root}}free_netflix_covid_phishing.html" target="_blank">Free Netflix COVID-19 Phishing</item>
+         
+         <item href="{{root}}amazon-signin-detected.html" target="_blank">Amazon Sign-In Detected</item>
+         <item href="{{root}}andrevenue_template_blog.html" target="_blank">And Revenue Template Test</item>
+
+       </menu>
+    </center>
+   -->
+    <center>
+      <menu class="vertical">
+        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
+        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
+        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
+        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
+        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
+        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
+        <item href="{{root}}order.html" target="_blank">Order Template</item>
+        <item href="{{root}}password.html" target="_blank">Password Template</item>
+        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
+        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
+        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
+
+
+
+
+      </menu>
+    </center>
+
+    <spacer size="16"></spacer>
+
+    <p>Happy Coding,</p>
+    <p>The Foundation Team</p>
+
+
+    <spacer size="16"></spacer>
+
+    </columns>
+  </row>
+  
+  <row>
+     <columns large="6" small="12">
+      <img src="https://unsplash.it/290/290" alt="" width="290" height="auto" style="width: 100%; max-width: 290px;">
+     </columns>
+     <columns large="6" small="12">
+      <img src="https://unsplash.it/290/290" alt="" width="290" height="auto" style="width: 100%; max-width: 290px;">
+     </columns>
+  </row>
+  
+</container>
+
+<spacer size="16"></spacer>
+
+<center>
+  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="http://zurb.com/">ZURB</a> </small>
+</center>
+
+<spacer size="16"></spacer>
+
